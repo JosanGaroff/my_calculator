@@ -13,6 +13,10 @@ function singrad() {
   var num = document.getElementById("n1");
   num.value = Math.sin(num.value*Math.PI/180);
 }
+function elevar4() {
+  var num = document.getElementById("n1");
+  num.value = Math.pow(num.value, 4);
+}
 </script>
 </head>
 <body>
@@ -23,6 +27,7 @@ function singrad() {
     <button onclick="cube()"> x^3 </button>
     <button onclick="sin()"> sin(x) [rad] </button>
     <button onclick="singrad()"> sin(x) [º] </button>
+    <button onclick="elevar4()"> x^4 </button>
   </p>
 </body>
 </html>
